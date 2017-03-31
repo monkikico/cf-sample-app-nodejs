@@ -1,8 +1,6 @@
 ---
 applications:
-- name: pivotal-node-sample
+- name: pivotalnode
   memory: 512M
   instances: 1
-  random-route: false
-  domains:
-  - pivotal.monkiki.co
+  random-route: true
